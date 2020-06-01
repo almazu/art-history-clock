@@ -60,10 +60,12 @@ class Painting extends React.Component {
         } else {
             return (
                 <div className="painting">
-                    <img src={artwork[getTime()].path} alt="Artwork"></img>
-                    <p className="description">{artwork[getTime()].title}, {artwork[getTime()].year} </p>
-                    <p className="description">{artwork[getTime()].artist}</p>
-                    <p className="description"><a href={artwork[getTime()].link}>Artwork info</a></p>
+                    <img className="image" src={artwork[getTime()].path} alt="Artwork"></img>
+                    <span className="description">
+                        <p>{artwork[getTime()].title}, {artwork[getTime()].year} </p>
+                        <p>{artwork[getTime()].artist}</p>
+                        <p><a href={artwork[getTime()].link}>Artwork info</a></p>
+                    </span>
                 </div>
             )
         }
