@@ -6,7 +6,7 @@ Art History Clock
 A web app of a clock to show a different painting every hour of the day. A description to the painting and a link for more information 
 accompany the artworks. Users have an option to set an alarm.
 
-![Screenshot](public/images/screenshot.JPG)
+![Screenshot](https://github.com/almazu/art-history-clock/blob/master/public/images/screenshot.jpg)
 
 ## Usage
 A user opens the Art History Clock web page. They see the time and appreciate the artwork. They want more information about said
