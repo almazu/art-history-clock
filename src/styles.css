@@ -1,27 +1,27 @@
 .clock {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding: 20px;
 }
-
 .description {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    float: right;
+    font-size: 16px;
     margin-left: 10px;
+    display: inline-block;
 }
-.form-group {
-    margin-right: 10px; 
+.title-italic {
+    font-style: italic;
 }
-
-h2 {
-    padding: 25px;
+h1 {
+    font-size: 68px;
+    padding: 15px 0px;
 }
-h4 {
-    padding: 10px;
+h5 {
+    padding-top: 15px;
+}
+h3 {
+    padding-top: 10px;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 footer {
-    font-size: 10px;
+    font-size: 12px;
 }
